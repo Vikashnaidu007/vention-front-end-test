@@ -1,24 +1,21 @@
-# Welcome to the Vention Interview!
-The goal of this test is to create some interactive cards using HTML, CSS/SCSS, and JavaScript.
+🌸 Bloom Haven – Interactive Flower Cards
 
-## Rules
-- No frameworks. Vanilla JS and CSS/SCSS only (no Bootstrap).
-- The layout for the cards should be responsive.
-- Provide access to your code, e.g. link to a GitHub repo.
-- **Important**: The card data should be stored in JS (e.g. mocked API response).
-- That’s it!
+This project was built as part of the Vention Interview Task. The goal was to create interactive product cards using HTML, CSS, and Vanilla JavaScript, with no frameworks or external libraries.
 
-## What to Build
-The card states are shown below. The image should fade and a button should appear when the card is hovered
-over. When an item is added to the cart, an icon should appear on the top left-hand corner of the card indicating that
-it has been added to the cart. A new button should now appear allowing you to remove the item from the cart, which
-resets the card back to its original state.
+✅ Features Implemented
 
-## Card States
-
-![alt text](/states/state-1.png "Logo Title Text 1")
-
-![alt text](/states/state-2.png "Logo Title Text 1")
-
-![alt text](/states/state-3.png "Logo Title Text 1")
-
+🎴 Interactive Cards
+Displays flower product cards with image, title, price, and star rating.
+Smooth hover effect: image fades and an “Add to Cart” button appears.
+🛒 Add to Cart / Remove from Cart
+When added to cart:
+A red “In Cart” badge appears on the top-left.
+Button changes to “Remove from Cart”.
+Clicking Remove reverts the card back to its original state.
+Cart count updates in the navbar.
+📱 Responsive Design
+Works beautifully across devices using CSS Grid and media queries.
+Layout adjusts for desktop, tablet, and mobile screens.
+💡 Clean Architecture
+Data is stored in JavaScript as a mock API response (array of objects).
+DOM is dynamically populated using this data.
