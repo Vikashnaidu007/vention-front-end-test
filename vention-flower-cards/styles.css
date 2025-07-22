@@ -234,7 +234,7 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* Card image container - Fixed for proper flower display */
+/* Card image container*/
 .card-image-container {
     height: auto;
     padding: 0;
@@ -253,7 +253,6 @@ body {
     object-fit: cover;
     transition: opacity 0.3s ease, transform 0.3s ease;
     border-radius: 10px 10px 0 0;
-    /* ADD THIS LINE */
 }
 
 /* Cart status indicator */
@@ -348,7 +347,6 @@ body {
     padding: 1rem 1.25rem 1.25rem;
     text-align: center;
     border-top: 1px solid #ccc;
-    /* ADD THIS LINE */
     margin: 0 1rem;/
 }
 
@@ -367,7 +365,7 @@ body {
     margin-bottom: 0.75rem;
 }
 
-/* Star rating - Updated for image stars */
+/* Star rating */
 .star-rating {
     display: flex;
     justify-content: center;
